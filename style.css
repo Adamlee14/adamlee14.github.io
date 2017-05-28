@@ -1,0 +1,108 @@
+/*
+information
+===========
+description:亚当拉拉纳展示文件样式表
+author:adam lee
+updata:2017/05/28
+
+content
+=======
+reset
+entirety-style
+font-style
+picture-style
+*/
+
+
+
+/*reset*/
+body,
+header,article,footer,
+h1,h2,h3
+p,figure,figcaption,
+ul,li,
+img {
+	margin: 0 ;
+	padding: 0;
+}
+/*rest end*/
+
+
+
+/*entirety-style*/
+body {
+	border: solid; 
+	border-width: 0 1px 0 1px;
+	margin: 0 auto; 
+	padding: 0 30px;
+	width: 70% ;  
+}
+/*entirety-style end*/
+
+
+
+/*font-style*/
+h1 {
+	font:bold 28px/200% "microsoft yahei",serif;
+}
+
+h2 {
+	font:bold 22px/200% "microsoft yahei",serif;
+}
+
+h3 {
+	font:bold 18px/150% "microsoft yahei",serif;
+}
+
+p {
+	font: 16px/150% "microsoft yahei",serif;
+}
+
+li {
+	font: 16px/150% "microsoft yahei",serif;
+}
+
+figcaption {
+    font: bold 16px/150% "microsoft yahei",serif;
+}
+
+.center-figure {
+	text-align: center;
+}
+/*font-style end*/
+
+
+
+/*picture-style*/
+.icon {
+	width:33%; 
+	float: left; 
+	margin: 8px 30px 15px 0;
+}
+
+.normal-pic {
+    width: 60% ;
+    margin: 0 auto;
+}
+
+.narrow-pic {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.wide-pic{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.poster-pic{
+    width: 100%;
+}
+
+.poster-pic img,
+.wide-pic img,
+.narrow-pic img,
+.normal-pic img {
+	width: 100%;
+}
+/*picture-style end*/
